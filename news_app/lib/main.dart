@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:news_app/berita_page.dart';
+import 'package:news_app/detail_berita.dart';
 // import 'package:news_app/detail_berita.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MainApp extends StatelessWidget {
       initialRoute: BeritaPage.routeName,
       routes: {
         BeritaPage.routeName: (context) => const BeritaPage(),
-        // DetailBerita.routeName: (context) => const DetailBerita(listBerita: );
+        DetailBerita.routeName: (context) => const DetailBerita()
       },
     );
   }

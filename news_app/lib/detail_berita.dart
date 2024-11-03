@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:news_app/api.dart';
 import 'package:news_app/model/res_berita.dart';
 
 class DetailBerita extends StatelessWidget {
   static const String routeName = '/detail_berita';
-  final Berita listBerita;
-  const DetailBerita({super.key, required this.listBerita});
+
+  const DetailBerita({super.key});
 
   @override
   Widget build(BuildContext context) {
+    Berita berita = ModalRoute.of(context)!.settings.arguments as Berita;
     return Scaffold(
       appBar: AppBar(
         title: const Text('Detail Berita'),
@@ -17,14 +19,14 @@ class DetailBerita extends StatelessWidget {
         child: ListView(
           children: [
             Image.network(
-              "imageUrl${listBerita.gambarBerita}",
+              "$imageUrl${berita.gambarBerita}",
               height: 250,
               width: MediaQuery.of(context).size.width,
               fit: BoxFit.fitWidth,
             ),
             const SizedBox(height: 8),
             Text(
-              '${listBerita.judul}',
+              '${berita.judul}',
               style: const TextStyle(
                 color: Colors.black,
                 fontSize: 16,
@@ -33,7 +35,7 @@ class DetailBerita extends StatelessWidget {
             ),
             const SizedBox(height: 8),
             Text(
-              '${listBerita.isiBerita}',
+              '${berita.isiBerita}',
               style: const TextStyle(
                 color: Colors.grey,
                 fontSize: 14,

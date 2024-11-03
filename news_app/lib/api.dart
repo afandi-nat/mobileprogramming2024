@@ -1,2 +1,2 @@
-const String baseUrl = "https://afandistudio.net/berita/";
-const String imageUrl = "https://afandistudio.net/berita/gambar_berita/";
+const String baseUrl = "https://konversipolinesbraja.net/";
+const String imageUrl = "https://konversipolinesbraja.net/gambar_berita/";

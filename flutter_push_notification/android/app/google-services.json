@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "56656986238",
+    "project_id": "save-token-firebase-300b2",
+    "storage_bucket": "save-token-firebase-300b2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56656986238:android:6eabd202a92a7580c4982f",
+        "android_client_info": {
+          "package_name": "com.example.flutter_push_notification"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKgOF07hMXKycCEUEyFNKOHnPtr7q42Qo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

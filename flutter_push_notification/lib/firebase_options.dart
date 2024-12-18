@@ -47,7 +47,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyB1w_vWhNVcVHTh8QE35lmM8fFmDbrwUUQ',
+    apiKey: 'SECRET_API_KEY',
     appId: '1:56656986238:web:383d7b01dff3b928c4982f',
     messagingSenderId: '56656986238',
     projectId: 'save-token-firebase-300b2',
@@ -56,7 +56,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBKgOF07hMXKycCEUEyFNKOHnPtr7q42Qo',
+    apiKey: 'SECRET_API_KEY',
     appId: '1:56656986238:android:6eabd202a92a7580c4982f',
     messagingSenderId: '56656986238',
     projectId: 'save-token-firebase-300b2',
@@ -64,7 +64,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyB1w_vWhNVcVHTh8QE35lmM8fFmDbrwUUQ',
+    apiKey: 'SECRET_API_KEY',
     appId: '1:56656986238:web:2c51c3c1175e783bc4982f',
     messagingSenderId: '56656986238',
     projectId: 'save-token-firebase-300b2',
